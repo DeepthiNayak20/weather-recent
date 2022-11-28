@@ -1,0 +1,208 @@
+.nothing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 64vh;
+    gap: 1rem;
+}
+
+.nothingText {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.favHead {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0 1rem 0;
+}
+
+.state {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-transform: capitalize;
+    width: 12rem;
+
+}
+
+.cities {
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 15px;
+}
+
+.removeAll {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+img.fillHeartImg {
+    height: 1rem;
+}
+
+.favBody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.elementTwo {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 38px;
+}
+
+.elementThree {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 21px;
+    min-width: max-content;
+}
+
+.threeElements {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 19rem;
+}
+
+span.deg {
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+
+.favBody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    background-color: #ffffff2b;
+}
+
+.favBodyContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    cursor: pointer;
+}
+
+.favBody:hover {
+    background-color: #ffffff6f;
+    color: rgb(173, 173, 21);
+    transition: 0.2s;
+}
+
+.favContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.removeAll {
+    cursor: pointer;
+}
+
+/* modal */
+
+.modalContainer {
+    background-color: #00000036;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.favColumnReverse {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.modalContent {
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem;
+    border-radius: 2px;
+}
+
+.infoModal {
+    color: #000000;
+    font-family: Roboto;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 18px;
+    text-align: center;
+}
+
+.modalButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btnNo {
+    padding: 7px 29px;
+    color: black;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    border: 1px solid #F76B1C;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 18px;
+    text-align: center;
+}
+
+.btnNo:hover {
+    background-color: #F76B1C;
+    color: white;
+}
+
+.modalForm {
+    display: flex;
+    gap: 1rem;
+}
+
+.favHeadContainer {
+    display: none;
+}
+
+.favrouriteMobile {
+    display: flex;
+    justify-content: space-between;
+    width: 69%;
+    gap: 2rem;
+}

@@ -1,0 +1,308 @@
+.homeContainer {
+    padding: 5% 10%;
+    height: 100%;
+    width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #5d52c7, #92428f);
+    background-repeat: no-repeat;
+}
+
+.mobileSearchContainer {
+    display: none;
+}
+
+@media screen and (max-width:919px) {
+
+    .footerContainer {
+        gap: 0rem;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .homeContainer {
+        padding: 4% 1%;
+    }
+
+    .headerMobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.5rem;
+    }
+
+    .headerContainer {
+        display: none;
+    }
+
+    .burgerLogo {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    body {
+        position: absolute;
+        right: 0;
+        left: 0;
+    }
+
+    .tabsSelect {
+        display: none;
+    }
+
+    .dateDisplay {
+        display: none;
+    }
+
+    .homeTabContainer {
+        margin-top: 0rem;
+        align-items: center;
+    }
+
+    .weatherDetail {
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: 21px;
+    }
+
+    .weatherDegree {
+        font-size: 52px;
+    }
+
+    .weatherDisplay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid white;
+        padding: 3rem 0rem 0rem 0rem;
+        border: none;
+        width: 100%;
+    }
+
+    .footerContainer {
+        margin-top: 0rem;
+        overflow: scroll;
+        background: #ffffff40;
+        justify-content: flex-start;
+        gap: 1em;
+        padding: 2em 1em;
+        border: none;
+        position: absolute;
+        width: 100vw;
+        left: 0;
+        bottom: 0;
+
+    }
+
+    .minMaxDegree {
+
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 21px;
+    }
+
+    /* sidenavbar */
+    .sidenav {
+        height: 100%;
+        width: 80%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: white;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .sidenav a {
+        padding: 6px 11px 3px 28px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+
+        transition: 0.3s;
+        color: #707070;
+        font-family: Roboto;
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 36px;
+    }
+
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    .favHeadContainer {
+        display: flex;
+        background: white;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .favleft {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .favoriteHead {
+        color: #292F33;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 24px;
+        text-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+    }
+
+    .mobileHeader {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+
+    .logoMobile img {
+        height: 24px;
+    }
+
+    .tabLinks {
+        border-bottom: none;
+        padding: 3.2rem 0 0 0;
+    }
+
+    .linkMobile {
+        color: #707070;
+        font-family: Roboto;
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 36px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .active {
+        color: black;
+        border: none;
+        font-weight: 800;
+    }
+
+    .close {
+        height: 40rem;
+    }
+
+    .backButtonImg {
+        height: 18px;
+    }
+
+    .searchMobileImg {
+        height: 24px;
+    }
+
+    .dateMobile {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        opacity: 0.6;
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-size: 15px;
+        letter-spacing: 1.5px;
+        line-height: 15px;
+        margin-bottom: 1rem;
+    }
+
+    .favHead {
+        padding: 0rem 0 1rem 0;
+    }
+
+    .favrouriteMobile {
+        gap: 0.5rem;
+        flex-direction: column;
+    }
+
+    .state {
+        color: #FFE539;
+    }
+
+    img.elementOneImg {
+        height: 24px;
+    }
+
+    .elementTwo {
+        font-size: 18px;
+    }
+
+    .elementThree {
+        font-size: 14px;
+    }
+
+    .modalContent {
+        padding: 1rem;
+    }
+
+    .minMax {
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        width: 6em;
+    }
+
+    .weatherContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 85vh;
+    }
+
+    input.mobileSearchBar {
+        padding: 0.5rem;
+        outline: none;
+        border: none;
+
+        color: black;
+        /* 
+        /* font-family: Roboto; */
+        font-size: 14px;
+        /* letter-spacing: 0; */
+        /* line-height: 36px; */
+    }
+
+
+    .mobileSearchContainer {
+        display: block;
+        background-color: white;
+        /* height: 100vh; */
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 9;
+    }
+
+    .defaultSearch {
+        font-size: 21.5px;
+    }
+
+
+}

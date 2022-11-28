@@ -1,0 +1,33 @@
+.react-tabs__tab--selected {
+    border: none !important;
+    border-bottom: 2px solid #FFD639 !important;
+    color: #FFD639 !important;
+    background-color: transparent !important;
+
+    font-weight: 500 !important;
+}
+
+.react-tabs__tab-list {
+    margin-top: 3rem !important;
+    color: white !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.react-tabs__tab {
+
+    /* position: unset !important; */
+
+}
+
+
+.active {
+    border-bottom: 1px solid #FFD639;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 15px;
+    color: #FFD639;
+    padding-bottom: 10px;
+}

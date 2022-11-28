@@ -1,0 +1,130 @@
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchField {
+    padding: 0.5em 0.5em;
+    border-radius: 3px;
+    background-color: rgb(255 255 255 / 32%);
+    font-size: 18px;
+    outline: none;
+    border: none;
+    color: white;
+    margin-right: 0rem;
+    width: 20rem;
+}
+
+.searchField ::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.formContainer {
+    position: relative;
+}
+
+.searchIcon {
+    position: absolute;
+    top: 0.8rem;
+    right: 0.8rem;
+}
+
+.headerMobile {
+    display: none;
+}
+
+.sideBarMobile {
+    display: block;
+}
+
+.mobileHeader {
+    display: none;
+}
+
+.suggestItem {
+    position: relative;
+    background-color: white;
+    top: 0rem;
+    left: 40.8rem;
+    width: 20rem;
+    /* right: 4rem; */
+    padding: 10px;
+}
+
+.linkList {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 7rem;
+    bottom: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 3rem;
+}
+
+.tabsSelect {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.tabLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff85;
+    padding: 2.2rem 0 0 0;
+}
+
+.dateDisplay {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: right;
+}
+
+.linkNames {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 15px;
+    padding-bottom: 10px;
+}
+
+.searchField::placeholder {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+
+.topHeaderMobile {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.mobileSearchContainer {
+    display: none;
+}
+
+
+.mobileSearchTop {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 1px solid #0000001f;
+    padding: 1rem;
+}
+
+img.goBack {
+    height: 18px;
+}
